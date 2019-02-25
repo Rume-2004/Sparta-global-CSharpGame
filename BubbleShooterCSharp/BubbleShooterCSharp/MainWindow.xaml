@@ -104,6 +104,87 @@
             <Button x:Name="imagebutton22" Grid.Column="3" Grid.Row="6" Click="Imagebutton22_Click">
                 <Image Source="green-ball.png" ></Image>
             </Button>
+            <Button x:Name="imagebutton23" Grid.Column="3" Grid.Row="5" Click="Imagebutton23_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton24" Grid.Column="3" Grid.Row="4" Click="Imagebutton24_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton25" Grid.Column="3" Grid.Row="3" Click="Imagebutton25_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton26" Grid.Column="3" Grid.Row="2" Click="Imagebutton26_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton27" Grid.Column="3" Grid.Row="1" Click="Imagebutton27_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton28" Grid.Column="3" Grid.Row="0" Click="Imagebutton28_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton29"  Grid.Column="4" Grid.Row="0" Click="Imagebutton29_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton30"  Grid.Column="4" Grid.Row="1" Click="Imagebutton30_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton31"  Grid.Column="4" Grid.Row="2" Click="Imagebutton31_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton32"  Grid.Column="4" Grid.Row="3" Click="Imagebutton32_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton33"  Grid.Column="4" Grid.Row="4" Click="Imagebutton33_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton34"  Grid.Column="4" Grid.Row="5" Click="Imagebutton34_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton35"  Grid.Column="4" Grid.Row="6" Click="Imagebutton35_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton36" Grid.Column="5" Grid.Row="0" Click="Imagebutton36_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton37" Grid.Column="5" Grid.Row="1" Click="Imagebutton37_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton38" Grid.Column="5" Grid.Row="2" Click="Imagebutton38_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton39" Grid.Column="5" Grid.Row="3" Click="Imagebutton39_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton40" Grid.Column="5" Grid.Row="4" Click="Imagebutton40_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton41" Grid.Column="5" Grid.Row="5" Click="Imagebutton41_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton42" Grid.Column="5" Grid.Row="6" Click="Imagebutton42_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton43" Grid.Column="6" Grid.Row="0" Click="Imagebutton43_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton44"  Grid.Column="6" Grid.Row="1" Click="Imagebutton44_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton45" Grid.Column="6" Grid.Row="2" Click="Imagebutton45_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton46" Grid.Column="6" Grid.Row="3" Click="Imagebutton46_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton47" Grid.Column="6" Grid.Row="4" Click="Imagebutton47_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton48"  Grid.Column="6" Grid.Row="5" Click="Imagebutton48_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton49" Grid.Column="6" Grid.Row="6" Click="Imagebutton49_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
 
         </Grid>
 
