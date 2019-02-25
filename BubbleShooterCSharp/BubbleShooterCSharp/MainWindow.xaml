@@ -83,9 +83,6 @@
             <Button x:Name="imagebutton15" Grid.Column="2" Grid.Row="1" Click="Imagebutton15_Click">
                 <Image Source="Blue-Ball.png"/>
             </Button>
-            <Button x:Name="imagebutton16" Grid.Column="2" Grid.Row="2" Click="Imagebutton16_Click">
-                <Image Source="Blue-Ball.png"/>
-            </Button>
             <Button x:Name="imagebutton17" Grid.Column="2" Grid.Row="2" Click="Imagebutton17_Click">
                 <Image Source="Blue-Ball.png"/>
             </Button>
@@ -179,7 +176,7 @@
             <Button x:Name="imagebutton47" Grid.Column="6" Grid.Row="4" Click="Imagebutton47_Click">
                 <Image Source="green-ball.png" ></Image>
             </Button>
-            <Button x:Name="imagebutton48"  Grid.Column="6" Grid.Row="5" Click="Imagebutton48_Click">
+            <Button x:Name="imagebutton48"  Grid.Column="5" Grid.Row="4" Click="Imagebutton48_Click" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="57.4,50.2,0,50.2" Grid.RowSpan="3" Width="57">
                 <Image Source="basketball_ball.png"/>
             </Button>
             <Button x:Name="imagebutton49" Grid.Column="6" Grid.Row="6" Click="Imagebutton49_Click">
@@ -187,6 +184,7 @@
             </Button>
 
         </Grid>
+        
 
     </Grid>
 

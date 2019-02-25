@@ -24,37 +24,7 @@ namespace BubbleShooterCSharp
         {
             InitializeComponent();
            
-            for (int i = 0; i < 5; i++)
-            {
-
-            }
         }
-        //private static Image CreateImage()
-        //{
-        //    Image ball = new Image();
-        //    ball.Width = 50;
-        //    ball.Height = 50;
-        //    ImageSource ballImage = new BitmapImage(new Uri(ImgNameball));
-        //    ball.Source = ballImage;
-        //    return ball;
-        //}
-        //public class Bubbles
-        //{
-        //    imageFile.Source = new BitmapImage(new Uri(ofd.FileName));
-
-
-        //}
-        //public void mapArray1()
-        //{
-        //    for (var y = 0; y < ?.Length; y++)
-        //    {
-        //        for (var x = 0; x < ?[y].Length; x++)
-        //        {
-
-        //        }
-        //    }
-        //}
-
         private void Restart_Click(object sender, RoutedEventArgs e)
         {
 
@@ -62,7 +32,7 @@ namespace BubbleShooterCSharp
 
         private void Instructions_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("How to Play? Click on the bubbles to make them pop. Don't pop the bombs or you lose points. Get the highest score in 15 seconds. Good Luck!", "Instructions");
         }
 
         private void Imagebutton_Click(object sender, RoutedEventArgs e)
@@ -131,6 +101,181 @@ namespace BubbleShooterCSharp
         }
 
         private void Imagebutton39_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton36_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton6_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton14_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton28_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton29_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton15_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton27_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton30_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton37_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton17_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton26_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton31_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton38_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton18_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton25_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton32_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton19_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton24_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton33_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton10_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton12_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton20_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton23_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton34_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton11_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton13_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton21_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton22_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton35_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Imagebutton49_Click(object sender, RoutedEventArgs e)
         {
 
         }
