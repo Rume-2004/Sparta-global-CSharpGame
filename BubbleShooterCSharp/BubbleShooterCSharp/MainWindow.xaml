@@ -1,0 +1,112 @@
+﻿<Window x:Class="BubbleShooterCSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BubbleShooterCSharp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Height="350" Margin="50,54,0,0" ShowGridLines="True" VerticalAlignment="Top" HorizontalAlignment="Left" Width="400">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Instructions" Content="Instructions" HorizontalAlignment="Left" Height="30" Margin="572,0,-282,223" VerticalAlignment="Bottom" Width="110" Click="Instructions_Click"/>
+        <Button x:Name="Restart" Content="Restart" HorizontalAlignment="Left" Height="32" Margin="572,0,-282,281" VerticalAlignment="Bottom" Width="110" Click="Restart_Click"/>
+        <Grid Margin="0,10,0,-11" Grid.ColumnSpan="1" Height="Auto" VerticalAlignment="Stretch" Grid.Column="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+            <Button x:Name="imagebutton" Grid.Column="0" Grid.Row="0" Click="Imagebutton_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton1" Grid.Column="0" Grid.Row="1" Click="Imagebutton1_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton2" Grid.Column="0" Grid.Row="2" Click="Imagebutton2_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton3" Grid.Column="0" Grid.Row="3" Click="Imagebutton3_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton4"  Grid.Column="1" Grid.Row="1" Click="Imagebutton4_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton5"  Grid.Column="1" Grid.Row="2" Click="Imagebutton5_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton6" Grid.Column="1" Grid.Row="0" Click="Imagebutton6_Click">
+                <Image Source="Bomb.gif"/>
+            </Button>
+            <Button x:Name="imagebutton7" Grid.Column="1" Grid.Row="4" Click="Imagebutton7_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton8" Grid.Column="1" Grid.Row="3" Click="Imagebutton8_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton9" Grid.Column="0" Grid.Row="4" Click="Imagebutton9_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton10" Grid.Column="0" Grid.Row="5" Click="Imagebutton10_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+            <Button x:Name="imagebutton11"  Grid.Column="0" Grid.Row="6" Click="Imagebutton11_Click">
+                <Image Source="basketball_ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton12" Grid.Column="1" Grid.Row="5" Click="Imagebutton12_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton13" Grid.Column="1" Grid.Row="6" Click="Imagebutton13_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton14" Grid.Column="2" Grid.Row="0" Click="Imagebutton14_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton15" Grid.Column="2" Grid.Row="1" Click="Imagebutton15_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton16" Grid.Column="2" Grid.Row="2" Click="Imagebutton16_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton17" Grid.Column="2" Grid.Row="2" Click="Imagebutton17_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton18" Grid.Column="2" Grid.Row="3" Click="Imagebutton18_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton19" Grid.Column="2" Grid.Row="4" Click="Imagebutton19_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton20" Grid.Column="2" Grid.Row="5" Click="Imagebutton20_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton21" Grid.Column="2" Grid.Row="6" Click="Imagebutton21_Click">
+                <Image Source="Blue-Ball.png"/>
+            </Button>
+            <Button x:Name="imagebutton22" Grid.Column="3" Grid.Row="6" Click="Imagebutton22_Click">
+                <Image Source="green-ball.png" ></Image>
+            </Button>
+
+        </Grid>
+
+    </Grid>
+
+</Window>
