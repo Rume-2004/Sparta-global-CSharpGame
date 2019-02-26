@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
-using System.Timers;
+
 
 namespace BubbleShooterCSharp
 {
@@ -23,7 +23,7 @@ namespace BubbleShooterCSharp
     public partial class MainWindow : Window
     {
         DispatcherTimer dt = new DispatcherTimer();
-        private TimeSpan _timeLeft;
+       
         public MainWindow()
         {
             InitializeComponent();
@@ -302,13 +302,11 @@ namespace BubbleShooterCSharp
             ball35.Visibility = Visibility.Hidden;
 
         }
-
         private void Imagebutton49_Click(object sender, RoutedEventArgs e)
         {
             ball49.Visibility = Visibility.Hidden;
-
+            
         }
-
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
@@ -322,11 +320,23 @@ namespace BubbleShooterCSharp
         {
 
             increment--;
+            if(increment == 0)
+            {
+                dt.Stop();
 
+            }
             Timer.Content = increment.ToString();
                 
-               
+        }
 
+        public void Score_Click(object sender, RoutedEventArgs e)
+        {
+            
+            int Score = 0;
+            if (true == int.TryParse(Score.ToString(), out Score))
+            {
+                Score = Score + Score++;
+            }
             
         }
     }
