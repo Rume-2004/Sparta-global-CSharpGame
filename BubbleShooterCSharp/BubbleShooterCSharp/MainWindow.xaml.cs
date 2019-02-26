@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
+using System.Timers;
 
 namespace BubbleShooterCSharp
 {
@@ -20,10 +22,15 @@ namespace BubbleShooterCSharp
     /// </summary>
     public partial class MainWindow : Window
     {
+        DispatcherTimer dt = new DispatcherTimer();
+        private TimeSpan _timeLeft;
         public MainWindow()
         {
             InitializeComponent();
-           
+
+            dt.Start();
+
+
         }
         private void Restart_Click(object sender, RoutedEventArgs e)
         {
@@ -301,6 +308,26 @@ namespace BubbleShooterCSharp
             ball49.Visibility = Visibility.Hidden;
 
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+            dt.Interval = TimeSpan.FromSeconds(1);
+            dt.Tick += Dt_Timer;
+            dt.Start();
+
+        }
+        private int increment = 16;
+        private void Dt_Timer(object sender, EventArgs e)
+        {
+
+            increment--;
+
+            Timer.Content = increment.ToString();
+                
+               
+
+            
+        }
     }
-    
-}
+}  
