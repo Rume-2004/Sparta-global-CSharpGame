@@ -23,9 +23,6 @@ namespace BubbleShooterCSharp
     public partial class MainWindow : Window
     {
         DispatcherTimer dt = new DispatcherTimer();
-        int points;
-        public int Points { get => points; set => points = value; }
-
         int score = 0;
 
         public MainWindow()
