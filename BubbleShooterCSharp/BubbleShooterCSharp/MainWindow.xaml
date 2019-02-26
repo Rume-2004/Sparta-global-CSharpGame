@@ -187,11 +187,11 @@
             </Grid>
         </Grid>
         <Label x:Name="Timer" Content="15" FontFamily="Arial" FontSize="35" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Margin="498,115,235.6,235"></Label>
-        <Button Name="Score" FontSize="25px" IsHitTestVisible="False" HorizontalAlignment="Left" Margin="498,59,0,0" Content="0" VerticalAlignment="Top" Height="37" Width="60" Click="Score_Click">
-            <Button.Background>
+        <Label Name="Score" FontSize="25px" IsHitTestVisible="False" HorizontalAlignment="Left" Margin="498,59,0,0" Content="0" VerticalAlignment="Top" Height="37" Width="60">
+            <Label.Background>
                 <ImageBrush/>
-            </Button.Background>
-        </Button>
+            </Label.Background>
+        </Label>
 
 
     </Grid>
