@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <Grid Height="350" Margin="39,28,0,0" ShowGridLines="False" VerticalAlignment="Top" HorizontalAlignment="Left" Width="400">
+        <Grid Height="350" Margin="39,28,0,0" ShowGridLines="False" VerticalAlignment="Top" HorizontalAlignment="Left" Width="400" OpacityMask="#FFC7C4C4">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Button x:Name="Instructions" Content="Instructions" HorizontalAlignment="Left" Height="30" Margin="572,0,-282,223" VerticalAlignment="Bottom" Width="110" Click="Instructions_Click"/>
             <Button x:Name="Restart" Content="Restart" HorizontalAlignment="Left" Height="32" Margin="572,0,-282,281" VerticalAlignment="Bottom" Width="110" Click="Restart_Click"/>
-            <Grid Margin="0,10,0,-11" Grid.ColumnSpan="1" Height="Auto" VerticalAlignment="Stretch" Grid.Column="0">
+            <Grid Margin="0,10,0,-11" Grid.ColumnSpan="1" Height="Auto" VerticalAlignment="Stretch" Grid.Column="0" OpacityMask="#FFC7C4C4">
 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"></RowDefinition>
@@ -37,152 +37,152 @@
                 </Grid.ColumnDefinitions>
 
 
-                <Button x:Name="imagebutton" Grid.Column="0" Grid.Row="0" Click="Imagebutton_Click">
-                    <Image Name="ball" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton" Grid.Column="0" Grid.Row="0" Click="Imagebutton_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton1" Grid.Column="0" Grid.Row="1" Click="Imagebutton1_Click">
-                    <Image Name="ball1" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton1" Grid.Column="0" Grid.Row="1" Click="Imagebutton1_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball1" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton2" Grid.Column="0" Grid.Row="2" Click="Imagebutton2_Click">
-                    <Image Name="ball2" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton2" Grid.Column="0" Grid.Row="2" Click="Imagebutton2_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball2" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton3" Grid.Column="0" Grid.Row="3" Click="Imagebutton3_Click">
-                    <Image Name="ball3" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton3" Grid.Column="0" Grid.Row="3" Click="Imagebutton3_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball3" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton4"  Grid.Column="1" Grid.Row="1" Click="Imagebutton4_Click">
-                    <Image Name="ball4" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton4"  Grid.Column="1" Grid.Row="1" Click="Imagebutton4_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball4" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton5"  Grid.Column="1" Grid.Row="2" Click="Imagebutton5_Click">
-                    <Image Name="ball5" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton5"  Grid.Column="1" Grid.Row="2" Click="Imagebutton5_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball5" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton6" Grid.Column="1" Grid.Row="0" Click="Imagebutton6_Click">
-                    <Image Name="ball6" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton6" Grid.Column="1" Grid.Row="0" Click="Imagebutton6_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball6" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton7" Grid.Column="1" Grid.Row="4" Click="Imagebutton7_Click">
-                    <Image Name="ball7" Source="green-ball.png" ></Image>
+                <Button x:Name="imagebutton7" Grid.Column="1" Grid.Row="4" Click="Imagebutton7_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball7" Source="green-ball.png" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton8" Grid.Column="1" Grid.Row="3" Click="Imagebutton8_Click">
-                    <Image Name="ball8" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton8" Grid.Column="1" Grid.Row="3" Click="Imagebutton8_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball8" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton9" Grid.Column="0" Grid.Row="4" Click="Imagebutton9_Click">
-                    <Image Name="ball9" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton9" Grid.Column="0" Grid.Row="4" Click="Imagebutton9_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball9" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton10" Grid.Column="0" Grid.Row="5" Click="Imagebutton10_Click">
-                    <Image Name="ball10" Source="green-ball.png" ></Image>
+                <Button x:Name="imagebutton10" Grid.Column="0" Grid.Row="5" Click="Imagebutton10_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball10" Source="green-ball.png" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton11"  Grid.Column="0" Grid.Row="6" Click="Imagebutton11_Click">
-                    <Image Name="ball11" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton11"  Grid.Column="0" Grid.Row="6" Click="Imagebutton11_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball11" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton12" Grid.Column="1" Grid.Row="5" Click="Imagebutton12_Click">
-                    <Image Name="ball12" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton12" Grid.Column="1" Grid.Row="5" Click="Imagebutton12_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball12" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton13" Grid.Column="1" Grid.Row="6" Click="Imagebutton13_Click">
-                    <Image Name="ball13" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton13" Grid.Column="1" Grid.Row="6" Click="Imagebutton13_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball13" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton14" Grid.Column="2" Grid.Row="0" Click="Imagebutton14_Click">
-                    <Image Name="ball14" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton14" Grid.Column="2" Grid.Row="0" Click="Imagebutton14_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball14" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton15" Grid.Column="2" Grid.Row="1" Click="Imagebutton15_Click">
-                    <Image Name="ball15" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton15" Grid.Column="2" Grid.Row="1" Click="Imagebutton15_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball15" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton17" Grid.Column="2" Grid.Row="2" Click="Imagebutton17_Click">
-                    <Image Name="ball17" Source="green-ball.png"/>
+                <Button x:Name="imagebutton17" Grid.Column="2" Grid.Row="2" Click="Imagebutton17_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball17" Source="green-ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton18" Grid.Column="2" Grid.Row="3" Click="Imagebutton18_Click">
-                    <Image Name="ball18" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton18" Grid.Column="2" Grid.Row="3" Click="Imagebutton18_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball18" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton19" Grid.Column="2" Grid.Row="4" Click="Imagebutton19_Click">
-                    <Image Name="ball19" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton19" Grid.Column="2" Grid.Row="4" Click="Imagebutton19_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball19" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton20" Grid.Column="2" Grid.Row="5" Click="Imagebutton20_Click">
-                    <Image Name="ball20" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton20" Grid.Column="2" Grid.Row="5" Click="Imagebutton20_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball20" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton21" Grid.Column="2" Grid.Row="6" Click="Imagebutton21_Click">
-                    <Image Name="ball21" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton21" Grid.Column="2" Grid.Row="6" Click="Imagebutton21_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball21" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton22" Grid.Column="3" Grid.Row="6" Click="Imagebutton22_Click">
-                    <Image Name="ball22" Source="green-ball.png" ></Image>
+                <Button x:Name="imagebutton22" Grid.Column="3" Grid.Row="6" Click="Imagebutton22_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball22" Source="green-ball.png" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton23" Grid.Column="3" Grid.Row="5" Click="Imagebutton23_Click">
-                    <Image Name="ball23" Source="green-ball.png" ></Image>
+                <Button x:Name="imagebutton23" Grid.Column="3" Grid.Row="5" Click="Imagebutton23_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball23" Source="green-ball.png" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton24" Grid.Column="3" Grid.Row="4" Click="Imagebutton24_Click">
-                    <Image Name="ball24" Source="Bomb.gif" ></Image>
+                <Button x:Name="imagebutton24" Grid.Column="3" Grid.Row="4" Click="Imagebutton24_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball24" Source="Bomb.gif" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton25" Grid.Column="3" Grid.Row="3" Click="Imagebutton25_Click">
-                    <Image Name="ball25" Source="basketball_ball.png" ></Image>
+                <Button x:Name="imagebutton25" Grid.Column="3" Grid.Row="3" Click="Imagebutton25_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball25" Source="basketball_ball.png" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton26" Grid.Column="3" Grid.Row="2" Click="Imagebutton26_Click">
-                    <Image Name="ball26" Source="Blue-Ball.png" ></Image>
+                <Button x:Name="imagebutton26" Grid.Column="3" Grid.Row="2" Click="Imagebutton26_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball26" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton27" Grid.Column="3" Grid.Row="1" Click="Imagebutton27_Click">
-                    <Image Name="ball27" Source="Bomb.gif" ></Image>
+                <Button x:Name="imagebutton27" Grid.Column="3" Grid.Row="1" Click="Imagebutton27_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball27" Source="Bomb.gif" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton28" Grid.Column="3" Grid.Row="0" Click="Imagebutton28_Click">
-                    <Image Name="ball28" Source="green-ball.png" ></Image>
+                <Button x:Name="imagebutton28" Grid.Column="3" Grid.Row="0" Click="Imagebutton28_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball28" Source="green-ball.png" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton29"  Grid.Column="4" Grid.Row="0" Click="Imagebutton29_Click">
-                    <Image Name="ball29" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton29"  Grid.Column="4" Grid.Row="0" Click="Imagebutton29_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball29" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton30"  Grid.Column="4" Grid.Row="1" Click="Imagebutton30_Click">
-                    <Image Name="ball30" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton30"  Grid.Column="4" Grid.Row="1" Click="Imagebutton30_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball30" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton31"  Grid.Column="4" Grid.Row="2" Click="Imagebutton31_Click">
-                    <Image Name="ball31" Source="green-ball.png"/>
+                <Button x:Name="imagebutton31"  Grid.Column="4" Grid.Row="2" Click="Imagebutton31_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball31" Source="green-ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton32"  Grid.Column="4" Grid.Row="3" Click="Imagebutton32_Click">
-                    <Image Name="ball32" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton32"  Grid.Column="4" Grid.Row="3" Click="Imagebutton32_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball32" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton33"  Grid.Column="4" Grid.Row="4" Click="Imagebutton33_Click">
-                    <Image Name="ball33" Source="green-ball.png"/>
+                <Button x:Name="imagebutton33"  Grid.Column="4" Grid.Row="4" Click="Imagebutton33_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball33" Source="green-ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton34"  Grid.Column="4" Grid.Row="5" Click="Imagebutton34_Click">
-                    <Image Name="ball34" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton34"  Grid.Column="4" Grid.Row="5" Click="Imagebutton34_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball34" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton35"  Grid.Column="4" Grid.Row="6" Click="Imagebutton35_Click">
-                    <Image Name="ball35" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton35"  Grid.Column="4" Grid.Row="6" Click="Imagebutton35_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball35" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton36" Grid.Column="5" Grid.Row="0" Click="Imagebutton36_Click">
-                    <Image Name="ball36" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton36" Grid.Column="5" Grid.Row="0" Click="Imagebutton36_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball36" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton37" Grid.Column="5" Grid.Row="1" Click="Imagebutton37_Click">
-                    <Image Name="ball37" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton37" Grid.Column="5" Grid.Row="1" Click="Imagebutton37_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball37" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton38" Grid.Column="5" Grid.Row="2" Click="Imagebutton38_Click">
-                    <Image Name="ball38" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton38" Grid.Column="5" Grid.Row="2" Click="Imagebutton38_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball38" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton39" Grid.Column="5" Grid.Row="3" Click="Imagebutton39_Click">
-                    <Image Name="ball39" Source="green-ball.png"/>
+                <Button x:Name="imagebutton39" Grid.Column="5" Grid.Row="3" Click="Imagebutton39_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball39" Source="green-ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton40" Grid.Column="5" Grid.Row="4" Click="Imagebutton40_Click">
-                    <Image Name="ball40" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton40" Grid.Column="5" Grid.Row="4" Click="Imagebutton40_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball40" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton41" Grid.Column="5" Grid.Row="5" Click="Imagebutton41_Click">
-                    <Image Name="ball41" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton41" Grid.Column="5" Grid.Row="5" Click="Imagebutton41_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball41" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton42" Grid.Column="5" Grid.Row="6" Click="Imagebutton42_Click">
-                    <Image Name="ball42" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton42" Grid.Column="5" Grid.Row="6" Click="Imagebutton42_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball42" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton43" Grid.Column="6" Grid.Row="0" Click="Imagebutton43_Click">
-                    <Image Name="ball43" Source="green-ball.png" />
+                <Button x:Name="imagebutton43" Grid.Column="6" Grid.Row="0" Click="Imagebutton43_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball43" Source="green-ball.png" OpacityMask="#FFC7C4C4" />
                 </Button>
-                <Button x:Name="imagebutton44"  Grid.Column="6" Grid.Row="1" Click="Imagebutton44_Click">
-                    <Image Name="ball44" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton44"  Grid.Column="6" Grid.Row="1" Click="Imagebutton44_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball44" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton45" Grid.Column="6" Grid.Row="2" Click="Imagebutton45_Click">
-                    <Image Name="ball45" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton45" Grid.Column="6" Grid.Row="2" Click="Imagebutton45_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball45" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton46" Grid.Column="6" Grid.Row="3" Click="Imagebutton46_Click">
-                    <Image Name="ball46" Source="Bomb.gif"/>
+                <Button x:Name="imagebutton46" Grid.Column="6" Grid.Row="3" Click="Imagebutton46_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball46" Source="Bomb.gif" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton47" Grid.Column="6" Grid.Row="4" Click="Imagebutton47_Click">
-                    <Image Name="ball47" Source="green-ball.png" ></Image>
+                <Button x:Name="imagebutton47" Grid.Column="6" Grid.Row="4" Click="Imagebutton47_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball47" Source="green-ball.png" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton48"  Grid.Column="5" Grid.Row="4" Click="Imagebutton48_Click" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="57.4,50.2,0,50.2" Grid.RowSpan="3" Width="57">
-                    <Image Name="ball48" Source="basketball_ball.png"/>
+                <Button x:Name="imagebutton48"  Grid.Column="5" Grid.Row="4" Click="Imagebutton48_Click" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="57.4,50.2,0,50.2" Grid.RowSpan="3" Width="57" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball48" Source="basketball_ball.png" OpacityMask="#FFC7C4C4"/>
                 </Button>
-                <Button x:Name="imagebutton49" Grid.Column="6" Grid.Row="6" Click="Imagebutton49_Click">
-                    <Image Name="ball49" Source="Blue-Ball.png"/>
+                <Button x:Name="imagebutton49" Grid.Column="6" Grid.Row="6" Click="Imagebutton49_Click" OpacityMask="#FFC7C4C4">
+                    <Image Name="ball49" Source="Blue-Ball.png" OpacityMask="#FF898585"/>
                 </Button>
             </Grid>
         </Grid>
@@ -196,7 +196,7 @@
 
     </Grid>
 
-    
+
 
 
 </Window>
