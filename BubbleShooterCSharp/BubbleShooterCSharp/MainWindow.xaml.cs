@@ -35,7 +35,8 @@ namespace BubbleShooterCSharp
         }
         private void Restart_Click(object sender, RoutedEventArgs e)
         {
-            
+            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+            Application.Current.Shutdown();
         }
 
         private void Instructions_Click(object sender, RoutedEventArgs e)
