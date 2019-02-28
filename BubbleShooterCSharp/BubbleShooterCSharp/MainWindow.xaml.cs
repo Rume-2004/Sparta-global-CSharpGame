@@ -26,6 +26,7 @@ namespace BubbleShooterCSharp
         int score = 0;
         BitmapImage[] Bubbles;
         Image[,] BubbleArray;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -154,8 +155,9 @@ namespace BubbleShooterCSharp
         }
         private void Imagebutton_Click(object sender, RoutedEventArgs e)
         {
-            
-            ball.Visibility = Visibility.Hidden;
+
+            //ball.Visibility = Visibility.Hidden;
+            ball.Source = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb.gif"));
             imagebutton.Click -= Imagebutton_Click;
             Image img = ball;
             scorePoint(ball);
@@ -164,6 +166,7 @@ namespace BubbleShooterCSharp
         private void Imagebutton1_Click(object sender, RoutedEventArgs e)
         {
             ball1.Visibility = Visibility.Hidden;
+           
             imagebutton1.Click -= Imagebutton1_Click;
             Image img = ball1;
             scorePoint(ball1);
