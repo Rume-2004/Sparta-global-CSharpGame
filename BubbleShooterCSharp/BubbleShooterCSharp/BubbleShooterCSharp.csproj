@@ -106,5 +106,8 @@
   <ItemGroup>
     <Resource Include="basketball_ball.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bomb2.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

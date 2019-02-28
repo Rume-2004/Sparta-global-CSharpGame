@@ -115,7 +115,7 @@
                 <Button x:Name="imagebutton26" Grid.Column="3" Grid.Row="2" Click="Imagebutton26_Click" OpacityMask="#FFC7C4C4">
                     <Image Name="ball26" Source="Blue-Ball.png" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
-                <Button x:Name="imagebutton27" Grid.Column="3" Grid.Row="1" Click="Imagebutton27_Click" OpacityMask="#FFC7C4C4">
+                <Button x:Name="imagebutton27"  Grid.Column="3" Grid.Row="1" Click="Imagebutton27_Click" OpacityMask="#FFC7C4C4">
                     <Image Name="ball27" Source="Bomb.gif" OpacityMask="#FFC7C4C4" ></Image>
                 </Button>
                 <Button x:Name="imagebutton28" Grid.Column="3" Grid.Row="0" Click="Imagebutton28_Click" OpacityMask="#FFC7C4C4">

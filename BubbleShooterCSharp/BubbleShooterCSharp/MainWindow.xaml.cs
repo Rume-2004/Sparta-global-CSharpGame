@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Media;
 
 
 namespace BubbleShooterCSharp
@@ -25,7 +26,12 @@ namespace BubbleShooterCSharp
         DispatcherTimer dt = new DispatcherTimer();
         int score = 0;
         BitmapImage[] Bubbles;
+        BitmapImage[] Bomb;
+        public SoundPlayer player = new SoundPlayer(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb2.wav");
         Image[,] BubbleArray;
+
+        
+
 
         public MainWindow()
         {
@@ -33,7 +39,7 @@ namespace BubbleShooterCSharp
 
             dt.Start();
             bubbleImage();
-           
+            
 
 
         }
@@ -90,18 +96,20 @@ namespace BubbleShooterCSharp
             BubbleArray[6, 5] = ball48;
             BubbleArray[6, 6] = ball49;
 
-            Bubbles = new BitmapImage[4];
+            Bubbles = new BitmapImage[3];
             Bubbles[0] = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\basketball_ball.png"));
             Bubbles[1] = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Blue-Ball.png"));
-            Bubbles[2] = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb.gif"));
-            Bubbles[3] = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\green-ball.png"));
+           // Bubbles[2] = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb.gif"));
+            Bubbles[2] = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\green-ball.png"));
+            Bomb = new BitmapImage[1];
+            Bomb[0] = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb.gif"));
             Random rnd = new Random();
             
             for (int i = 0; i < BubbleArray.GetLength(0); i++)
             {
                 for (int b = 0; b < BubbleArray.GetLength(1); b++)
                 {
-                    int image = rnd.Next(4);
+                    int image = rnd.Next(3);
                     BubbleArray[i, b].Source = Bubbles[image];
                 }
             }
@@ -145,24 +153,33 @@ namespace BubbleShooterCSharp
                     }
                     if (img.Source == Bubbles[2])
                     {
-                        pointMinus15();
-                    }
-                    if (img.Source == Bubbles[3])
-                    {
                         Point20();
                     }
             
         }
+        public void changeImage(Image img)
+        {
+
+            if (img.Source == Bomb[0])
+            {
+                pointMinus15();
+            }
+            
+        }
+        
         private void Imagebutton_Click(object sender, RoutedEventArgs e)
         {
 
             //ball.Visibility = Visibility.Hidden;
             ball.Source = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb.gif"));
-            imagebutton.Click -= Imagebutton_Click;
+            player.Play();
+            //imagebutton.Click -= Imagebutton_Click;
             Image img = ball;
-            scorePoint(ball);
+            changeImage(ball);
+            //scorePoint(ball);
             
         }
+
         private void Imagebutton1_Click(object sender, RoutedEventArgs e)
         {
             ball1.Visibility = Visibility.Hidden;
@@ -230,7 +247,9 @@ namespace BubbleShooterCSharp
 
         private void Imagebutton43_Click(object sender, RoutedEventArgs e)
         {
-            ball43.Visibility = Visibility.Hidden;
+            //ball43.Visibility = Visibility.Hidden;
+            ball43.Source = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb.gif"));
+            player.Play();
             imagebutton43.Click -= Imagebutton43_Click;
             Image img = ball43;
             scorePoint(ball43);
@@ -293,7 +312,9 @@ namespace BubbleShooterCSharp
 
         private void Imagebutton28_Click(object sender, RoutedEventArgs e)
         {
-            ball28.Visibility = Visibility.Hidden;
+            //ball28.Visibility = Visibility.Hidden;
+            ball28.Source = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb.gif"));
+            player.Play();
             imagebutton28.Click -= Imagebutton28_Click;
             Image img = ball28;
             scorePoint(ball28);
@@ -405,7 +426,9 @@ namespace BubbleShooterCSharp
 
         private void Imagebutton25_Click(object sender, RoutedEventArgs e)
         {
-            ball25.Visibility = Visibility.Hidden;
+            //ball25.Visibility = Visibility.Hidden;
+            ball25.Source = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb.gif"));
+            player.Play();
             imagebutton25.Click -= Imagebutton25_Click;
             Image img = ball25;
             scorePoint(ball25);
@@ -540,7 +563,9 @@ namespace BubbleShooterCSharp
         }
         private void Imagebutton49_Click(object sender, RoutedEventArgs e)
         {
-            ball49.Visibility = Visibility.Hidden;
+            //ball49.Visibility = Visibility.Hidden;
+            ball49.Source = new BitmapImage(new Uri(@"C:\Users\tech-w86.LAPTOP-3ALVMOF3\Documents\Engineering26\Week7\Day1\Sparta-global-CSharpGame\BubbleShooterCSharp\BubbleShooterCSharp\Bomb.gif"));
+            player.Play();
             imagebutton49.Click -= Imagebutton49_Click;
             Image img = ball49;
             scorePoint(ball49);
