@@ -415,7 +415,7 @@ namespace BubbleShooterCSharp
 
             dt.Interval = TimeSpan.FromSeconds(1);
             dt.Tick += Dt_Timer;
-            //dt.Start();
+            dt.Start();
 
         }
         private int increment = 16;
