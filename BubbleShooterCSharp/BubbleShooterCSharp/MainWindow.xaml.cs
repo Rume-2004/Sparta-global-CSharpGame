@@ -200,7 +200,6 @@ namespace BubbleShooterCSharp
             changeBubbleToBomb(e);
             imagebutton.Click -= Imagebutton_Click;
             Image img = ball;
-
             scorePoint(ball);
 
         }
