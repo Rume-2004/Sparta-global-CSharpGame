@@ -46,10 +46,6 @@ namespace BubbleShooterCSharp
 
         public void bubbleImage()
         {
-           
-
-            
-
             BubbleArray = new Image[7, 7];
             BubbleArray[0, 0] = ball;
             BubbleArray[0, 1] = ball1;
@@ -129,7 +125,7 @@ namespace BubbleShooterCSharp
 
         private void Instructions_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("How to Play? Click on the bubbles to make them pop. Don't pop the bombs or you lose points. Get the highest score in 15 seconds. Good Luck!", "Instructions");
+            MessageBox.Show("How to Play? Click on the bubbles to make them pop. Don't pop the bombs or you lose points. Get the highest score in 20 seconds. Good Luck!", "Instructions");
         } 
         public void Point20()
         {
@@ -642,7 +638,7 @@ namespace BubbleShooterCSharp
             dt.Start();
 
         }
-        private int increment = 16;
+        private int increment = 21;
         private void Dt_Timer(object sender, EventArgs e)
         {
 
